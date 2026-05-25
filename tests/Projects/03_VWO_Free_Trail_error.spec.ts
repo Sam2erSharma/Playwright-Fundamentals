@@ -12,7 +12,4 @@ test("Free Trail", async ({ page }) => {
     await expect(err_msg).toBeVisible();
     console.log(await err_msg.textContent());
     //await page.getByRole("checkbox").check();
-
-
-
 })
