@@ -37,6 +37,13 @@ This folder acts as a central repository for real-world automated testing projec
   * Simulating product searches on Flipkart, extracting elements, and applying Low-to-High price sorting triggers.
   * Locating child `<path>` elements in an SVG map of India, looping to extract state attributes, and selecting Uttar Pradesh (UP).
 
+### [👻 09_Shadow_DOM](./09_Shadow_DOM)
+* **Goal**: Automating open and closed Shadow DOM elements.
+* **Core Flows**:
+  * Filling inputs inside **open** shadow roots using native Playwright locators.
+  * Navigating **closed** shadow roots (inaccessible via CSS/XPath) using keyboard tab events and keyboard typing simulation.
+  * Clicking links embedded within shadow DOM boundaries.
+
 ---
 
 ## 📄 Core Single Specs
