@@ -31,6 +31,12 @@ This folder acts as a central repository for real-world automated testing projec
   * Hovering dynamic parent anchors to trigger hidden flyouts and selecting children.
   * Context menu triggers using `click({ button: 'right' })` and disabled action option assertions.
 
+### [🗺️ 08_SVG_Flipkart_India_Map](./08_SVG_Flipkart_India_Map)
+* **Goal**: Verifying SVG selectors and interaction nodes.
+* **Core Flows**:
+  * Simulating product searches on Flipkart, extracting elements, and applying Low-to-High price sorting triggers.
+  * Locating child `<path>` elements in an SVG map of India, looping to extract state attributes, and selecting Uttar Pradesh (UP).
+
 ---
 
 ## 📄 Core Single Specs
